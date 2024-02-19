@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
   #get "/",  controller: "movies", action: "index" 
 
+  #resources :directors #this generates all the seven routes below for directors then go to /info/routes to check the routes.
+
   #get "/"=> "movies#index"
   root "movies#index"
   # Routes for the Movie resource:
